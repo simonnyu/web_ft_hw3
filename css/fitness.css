@@ -1,0 +1,337 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    background-image: url("../images/bg_html.jpg");
+    background-repeat: repeat;
+    font-family: Microsoft JhengHei;
+}
+
+.wrap {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 10px;
+}
+
+.logo {
+    float: left;
+}
+
+.header_right {
+    float: right;
+}
+
+.social {
+    text-align: right;
+    margin: 10px 20px;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+li {
+    margin: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+#content_img {
+    float: left;
+}
+
+#content_right {
+    float: left;
+    background-color: #292929;
+    width: 240px;
+    height: 395px;
+    padding: 10px 30px;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+.blue {
+    color: #01A5CA;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+#more {
+    background-color: gray;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#right_text {
+    margin-bottom: 36px;
+}
+
+.content2 {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px 36px;
+}
+
+.event_left {
+    width: 65%;
+    float: left;
+}
+
+.event_right {
+    width: 35%;
+    float: left;
+}
+
+.event {
+    margin: 20px 0px;
+}
+
+.event_img {
+    float: left;
+}
+
+.event_detail {
+    float: left;
+    margin-left: 15px;
+    width: 360px;
+}
+
+#services li {
+    list-style-image: url("../images/dot_blue.gif");
+}
+
+h3 {
+    font-size: 28px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: #01A5CA;
+}
+
+#services a {
+    text-decoration: none;
+    color: black;
+}
+
+#services a:hover {
+    color: #01A5CA;
+}
+
+input {
+    padding: 9px;
+    margin: 20px;
+}
+
+#search_btn {
+    margin: 10px 0px;
+}
+
+#search {
+    background-color: #D3D3D3;
+    padding: 15px;
+    color: #01A5CA;
+    text-decoration: none;
+}
+
+.footer {
+    margin: 30px;
+    text-align: center;
+}
+
+@media(max-width: 940px) {
+    .wrap {
+        width: 100%;
+    }
+    #content_img {
+        width: 62%;
+        height: 395px;
+        float: left;
+    }
+    #content_right {
+        width: 30%;
+        float: left;
+        height: 395px;
+        padding: 2% 4%;
+    }
+}
+
+@media(max-width: 768px) {
+    .logo {
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+    }
+    .header_right {
+        float: none;
+        margin: 0 auto;
+    }
+    .menu ul {
+        margin: 0 auto;
+        text-align: center;
+    }
+    #content_img {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    #content_img img {
+        width: 100%;
+    }
+    #content_right {
+        width: 92%;
+        height: auto;
+        float: none;
+        margin: 0 auto;
+        padding: 4% 4% 4% 4%;
+    }
+}
+@media (max-width: 640px){
+	li{
+		margin: 10px;	
+	}
+	.event_left {
+        width: 100%;
+        float: left;
+    }
+    .event_right {
+        width: 100%;
+        float: left;
+    }
+}
+@media (max-width: 414px) {
+    .menu ul {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .menu ul li {
+        display: block;
+    }
+    .event_left {
+        width: 100%;
+        float: left;
+    }
+    .event_right {
+        width: 100%;
+        float: left;
+    }
+    .event {
+        margin: 20px 0px;
+    }
+    .event_img {
+        float: left;
+    }
+    .event_detail {
+        float: left;
+/*        margin-left: 15px;*/
+        width: 100%;
+    }
+}
+@media (max-width: 320px){
+	input{
+		margin: 0 auto;	
+	}
+	#search_btn{
+		margin: 20px 0px;	
+	}
+}
